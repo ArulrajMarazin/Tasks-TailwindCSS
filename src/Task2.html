@@ -7,10 +7,42 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 
-<body>
-    
-    
-    
+<body class="h-screen bg-blue-950 flex justify-center items-center ">
+
+    <div class="bg-blue-800/25 border-1 border-purple-900 rounded-xl p-5 ">
+
+        <h1 class="text-white mb-2.5 text-center text-2xl font-bold ">Welcome Back</h1>
+        <p class="text-gray-300 mb-4 text-center text-sm ">Sign in to continue</p>
+
+        <form action="#" class="text-white flex flex-col gap-2 ">
+
+            <label for="email" class="text-sm ">Email</label>
+            <input type="email" class="outline-1 outline-gray-500 rounded-md py-2 px-2 w-82 mb-2.5 ">
+
+            <div class="flex justify-between ">
+                <label for="password" class="text-sm ">Password</label>
+                <a href="#" class="text-purple-600 text-sm ">Forgot Password?</a>
+            </div>
+            <input type="password" class="outline-1 outline-gray-500 rounded-md py-2 px-2  w-82 mb-2.5 ">
+
+            <button type="submit" class="bg-green-600 p-2 my-5 rounded-xl font-semibold cursor-pointer hover:bg-green-700 duration-150 ">Success!</button>
+
+        </form>
+
+        <p class="text-gray-300 text-center mb-2.5 text-sm ">Don't have an account ? <a href="#" class="text-purple-600">Sign Up</a></p>
+
+        <div class="items-center gap-3 text-gray-300 flex my-5 ">
+            <span class="flex-1 bg-gray-300 h-px "></span>
+            <span class="text-sm">Or continue with</span>
+            <span class="flex-1 bg-gray-300 h-px"></span>
+        </div>
+
+        <div class="flex justify-center gap-4">
+            <button class="text-white bg-gray-800/75 py-2 w-1/2 rounded-lg outline-1 outline-gray-500 font-semibold cursor-pointer hover:bg-gray-900 duration-150 "><i class="fa-brands fa-google"></i> Google</button>
+            <button class="text-white bg-gray-800/75 py-2 w-1/2 rounded-lg outline-1 outline-gray-500 font-semibold cursor-pointer hover:bg-gray-900 duration-150 "><i class="fa-brands fa-google"></i> Facebook</button>
+        </div>
+
+    </div>
 
 </body>
 
